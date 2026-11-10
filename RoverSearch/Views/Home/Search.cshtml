@@ -24,8 +24,11 @@
                 {
                     <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center mb-2">
                         <div>
-                            <h5 class="mb-1">@result.Filename</h5>
-                            <small class="text-muted">@result.Filename</small>
+                            <h5 class="mb-1" style="color: #f5c518; -webkit-text-stroke: 1px black; font-weight: bold; font-size: 30px;">@result.Title</h5>
+                            <small class="text-info fst-italic" style="font-size: 20px;"> Season @result.Season, Episode @result.Episode</small>
+                            <p class="mb-0 mt-2 text-dark fst-italic" style="font-size: 15px;">
+                                @result.Description
+                            </p>
                         </div>
                         <span class="badge bg-primary rounded-pill">View</span>
                     </a>
